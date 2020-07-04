@@ -1,6 +1,6 @@
 from preprocess_kgptalkie import utils
 
-__version__ = '0.0.2'
+__version__ = '0.0.3'
 
 def get_wordcounts(x):
 	return utils._get_wordcounts(x)
