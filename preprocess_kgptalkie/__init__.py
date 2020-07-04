@@ -1,6 +1,6 @@
 from preprocess_kgptalkie import utils
 
-__version__ = '0.0.1'
+__version__ = '0.0.2'
 
 def get_wordcounts(x):
 	return utils._get_wordcounts(x)
@@ -62,10 +62,10 @@ def make_base(x):
 	return utils._make_base(x)
 
 def remove_common_words(x, n=20):
-	return utils._remove_common_words(x, n=20)
+	return utils._remove_common_words(x, n)
 
 def remove_rarewords(x, n=20):
-	return utils._remove_rarewords(x, n=20):
+	return utils._remove_rarewords(x, n)
 
 def _spelling_correction(x):
 	return utils._spelling_correction(x)
